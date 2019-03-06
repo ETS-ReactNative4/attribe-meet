@@ -31,7 +31,7 @@
     },
     "calendarSync": {
         "addMeetingURL": "Add a meeting link",
-        "confirmAddLink": "Do you want to add a Jitsi link to this event?",
+        "confirmAddLink": "Do you want to add an Attribe link to this event?",
         "confirmAddLinkTitle": "Calendar",
         "error": {
             "appConfiguration": "Calendar integration is not properly configured.",
@@ -116,12 +116,12 @@
         "yesterday": "Yesterday"
     },
     "deepLinking": {
-        "appNotInstalled": "You need the __app__ mobile app to join this meeting on your phone.",
-        "description": "Nothing happened? We tried launching your meeting in the __app__ desktop app. Try again or launch it in the __app__ web app.",
+        "appNotInstalled": "You need the Attribe Meet mobile app to join this meeting on your phone.",
+        "description": "Nothing happened? We tried launching your meeting in the Attribe Meet desktop app. Try again or launch it in the Attribe Meet web app.",
         "downloadApp": "Download the app",
         "launchWebButton": "Launch in web",
         "openApp": "Continue to the app",
-        "title": "Launching your meeting in __app__...",
+        "title": "Launching your meeting in Attribe Meet...",
         "tryAgainButton": "Try again in desktop"
     },
     "defaultLink": "e.g. __url__",
@@ -335,7 +335,7 @@
         "answer": "Answer",
         "audioCallTitle": "Incoming call",
         "decline": "Dismiss",
-        "productLabel": "from Jitsi Meet",
+        "productLabel": "from Attribe Meet",
         "videoCallTitle": "Incoming video call"
     },
     "info": {
@@ -582,7 +582,7 @@
     },
     "startupoverlay": {
         "policyText": " ",
-        "title": "__app__ needs to use your microphone and camera."
+        "title": "Attribe Meet needs to use your microphone and camera."
     },
     "suspendedoverlay": {
         "rejoinKeyTitle": "Rejoin",
@@ -739,15 +739,15 @@
             "join": "Tap to join",
             "roomname": "Enter room name"
         },
-        "appDescription": "Go ahead, video chat with the whole team. In fact, invite everyone you know. __app__ is a fully encrypted, 100% open source video conferencing solution that you can use all day, every day, for free — with no account needed.",
+        "appDescription": "Go ahead, video chat with the whole team. In fact, invite everyone you know. Attribe Meet is a fully encrypted video conferencing solution that you can use all day, every day",
         "audioVideoSwitch": {
             "audio": "Voice",
             "video": "Video"
         },
         "calendar": "Calendar",
         "connectCalendarButton": "Connect your calendar",
-        "connectCalendarText": "Connect your calendar to view all your meetings in __app__. Plus, add __app__ meetings to your calendar and start them with one click.",
-        "enterRoomTitle": "Start a new meeting",
+        "connectCalendarText": "Connect your calendar to view all your meetings in Attribe Meet. Plus, add Attribe Meet meetings to your calendar and start them with one click.",
+        "enterRoomTitle": "Enter meeting space",
         "go": "GO",
         "join": "JOIN",
         "privacy": "Privacy",
@@ -758,6 +758,6 @@
         "roomnameHint": "Enter the name or URL of the room you want to join. You may make a name up, just let the people you are meeting know it so that they enter the same name.",
         "sendFeedback": "Send feedback",
         "terms": "Terms",
-        "title": "Secure, fully featured, and completely free video conferencing"
+        "title": "Attribes Simple, Secure and Scalable Video Conferencing Platform"
     }
 }

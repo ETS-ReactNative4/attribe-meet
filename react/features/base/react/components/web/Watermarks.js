@@ -145,8 +145,8 @@ class Watermarks extends Component<Props, State> {
         if (this.state.showBrandWatermark) {
             reactElement = (
                 <div
-                    className = 'watermark rightwatermark'
-                    style = { _RIGHT_WATERMARK_STYLE } />
+                    className='watermark rightwatermark'
+                    style={_RIGHT_WATERMARK_STYLE} />
             );
 
             const { brandWatermarkLink } = this.state;
@@ -154,9 +154,9 @@ class Watermarks extends Component<Props, State> {
             if (brandWatermarkLink) {
                 reactElement = (
                     <a
-                        href = { brandWatermarkLink }
-                        target = '_new'>
-                        { reactElement }
+                        href={brandWatermarkLink}
+                        target='_new'>
+                        {reactElement}
                     </a>
                 );
             }
@@ -175,18 +175,18 @@ class Watermarks extends Component<Props, State> {
         let reactElement = null;
 
         if (this.state.showJitsiWatermark
-                || (this.props._isGuest
-                    && this.state.showJitsiWatermarkForGuests)) {
-            reactElement = <div className = 'watermark leftwatermark' />;
+            || (this.props._isGuest
+                && this.state.showJitsiWatermarkForGuests)) {
+            reactElement = <div className='watermark leftwatermark' />;
 
             const { jitsiWatermarkLink } = this.state;
 
             if (jitsiWatermarkLink) {
                 reactElement = (
                     <a
-                        href = { jitsiWatermarkLink }
-                        target = '_new'>
-                        { reactElement }
+                        href='http://www.attribes.com'
+                        target='_new'>
+                        {reactElement}
                     </a>
                 );
             }
@@ -207,10 +207,10 @@ class Watermarks extends Component<Props, State> {
 
             return (
                 <a
-                    className = 'poweredby'
-                    href = 'http://jitsi.org'
-                    target = '_new'>
-                    <span>{ t('poweredby') } jitsi.org</span>
+                    className='poweredby'
+                    href='http://jitsi.org'
+                    target='_new'>
+                    <span>{t('poweredby')} jitsi.org</span>
                 </a>
             );
         }
